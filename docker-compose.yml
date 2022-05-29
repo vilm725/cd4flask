@@ -3,7 +3,7 @@ services:
   myflaskapp:
     container_name: myflaskapp
     hostname: myflaskapp
-    build: . # permet de build 
+    build: .
     restart: unless-stopped
     ports:
       - "8887:8085"
