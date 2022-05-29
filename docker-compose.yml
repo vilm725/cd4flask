@@ -3,9 +3,11 @@ services:
   myflaskapp:
     container_name: myflaskapp
     hostname: myflaskapp
-    image: .
+    build: . # permet de build 
     restart: unless-stopped
     ports:
-      - "8888:8085"
+      - "8887:8085"
     volumes:
-      - .:/home
+      - data:/home
+volumes:
+  data:
