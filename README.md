@@ -1,6 +1,6 @@
 # my Flask App with Jenkins 🐍
 
-Cursus DeVops 2022 : Une simple application avec Flask pour tester les pipelines avec Jenkins, avec des testes unitaires et enfin, une analyse avec SonarQube ✅
+Cursus DeVops 2022 : Une simple application avec Flask pour tester les pipelines avec Jenkins, avec des testes unitaires, une analyse avec SonarQube, envoie des artefacts vers un repo privé Nexus et un CD vers AWS ✅
 
 # Installer les dépendances
 
